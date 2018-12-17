@@ -46,9 +46,7 @@ div p.imgInfo {
 }
 
 .section {
-    padding: 2%;
-    border-right: 10px solid black;
-    border-left: 10px solid black;
+    padding: 1%;
 }
 
 .textBackground {
@@ -108,4 +106,23 @@ div.iconBox p i {
     font-size: 200%;
     color: #ff8000;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .tinted-image div h2 {
+        color: white;
+        height: 400px;
+        position: relative;
+        top: 100px;
+        font-size: 300%;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);    
+    }
+
+    #philosophy {
+        padding: 0 10% 10% 10%;
+        line-height: 300%;
+        border-right: none;
+        border-bottom: 1px solid #ff8000;
+    }
+  }
 
