@@ -37,8 +37,6 @@ p strong {
 
 .section {
     padding: 2%;
-    border-right: 10px solid black;
-    border-left: 10px solid black;
 }
 
 .col-sm-3, .col-md-2 {
