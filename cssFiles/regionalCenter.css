@@ -1,0 +1,85 @@
+
+
+
+/* ---------------------- start - Cover Photo - start---------------------------*/
+.tinted-image {
+    background: url("../images/regionalCenterCover.jpg"); 
+    height: 50vh;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+.tinted-image div h2 {
+    color: white;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    font-size: 400%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);    
+}
+/* ----------------------end - Cover Photo - end---------------------------*/
+
+.section {
+    padding: 2%;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    font-size: 140%;
+}
+
+.section div ul li {
+    font-size: 70%;
+}
+
+hr.orange {
+    border-color: #ff8000;
+    background-color: #ff8000;
+    color: #ff8000;
+}
+
+
+span.text-highlight {
+    font-size: 140%;
+    color: #80ffaa;
+}
+
+p.program-highlights {
+    font-size: 80%;
+}
+
+div.program-highlights {
+    margin-top: 20px;
+}
+
+div.program-highlights i {
+    font-size: 150%;
+    color: #ff8000;
+}
+
+div.contentImage {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+div.contentImage img {
+    padding: 5px;
+    border: 1px solid white;
+    background-color: #002253;
+    border-radius: 5px;
+}
+
+hr.orange {
+    border-color: #ff8000;
+    background-color: #ff8000;
+    color: #ff8000;
+}
+
+@media only screen and (max-width: 768px) {
+    .list {
+        margin-top: 15px;
+    }
+}

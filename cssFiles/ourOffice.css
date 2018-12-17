@@ -1,0 +1,142 @@
+body {
+    background-color: #efefef;
+}
+
+
+/* ---------------------- start - Cover Photo - start---------------------------*/
+
+.tinted-image {
+
+    background: url("../images/handsHoldingBanner.jpg"); 
+    height: 50vh;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.tinted-image div h2 {
+    color: white;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    font-size: 400%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);    
+}
+/* ----------------------end - Cover Photo - end---------------------------*/
+    
+p strong {
+    color: #0f192b;
+    font-size: 140%;
+}
+
+
+.section {
+    padding: 2%;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+
+.col-sm-3, .col-md-2 {
+    padding: 0px;
+}
+
+
+.staff-img {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    max-height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.staff-card {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px -5%;
+    padding: 10px;
+}
+
+.staff-text {
+    display: block;
+}
+
+#director {
+    background: url('../images/staff/staffMemberDirector.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#one {
+    background: url('../images/staff/staffMember1.JPG') no-repeat center center;
+    background-size: cover;
+    
+}
+
+#two {
+    background: url('../images/staff/staffMember2.JPG') no-repeat center center;
+    background-size: cover;
+}
+
+#three {
+    background: url('../images/staff/staffMember3.JPG') no-repeat center center;
+    background-size: cover;
+}
+
+#four {
+    background: url('../images/staff/staffMember4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#five {
+    background: url('../images/staff/staffMember5.JPG') no-repeat center center;
+    background-size: cover;
+}
+
+#six {
+    background: url('../images/staff/staffMember6.JPG') no-repeat center center;
+    background-size: cover;
+}
+
+#seven {
+    background: url('../images/staff/staffMember7.JPG') no-repeat center center;
+    background-size: cover;
+    
+}
+
+#eight {
+    background: url('../images/staff/staffMember8.JPG') no-repeat center center;
+    background-size: cover;
+    
+}
+
+#nine {
+    background: url('../images/staff/staffMember9.JPG') no-repeat center center;
+    background-size: cover;
+    
+}
+
+#ten {
+    background: url('../images/staff/staffMember10.jpg') no-repeat center center;
+    background-size: cover;
+    
+}
+
+#eleven {
+    background: url('../images/staff/staffMember11.jpeg') no-repeat center center;
+    background-size: cover;
+    
+}
+
+
+
+
+
+

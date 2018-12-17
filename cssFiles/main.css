@@ -1,0 +1,152 @@
+body {
+    margin-top: 30px;
+}
+
+/* START NAVBAR CSS */
+/* navbar */
+.navbar-default {
+    background-color: #002253;
+    border-color: black;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #002253;
+    background-color: white;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #002253;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: blue;
+    background-color: white;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: green;
+    background-color: white;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: white;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #2b210f;
+          background-color: white;
+    }
+}
+
+
+
+/* END NAVBAR CSS*/
+
+
+/* start about page*/
+
+.about-box {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #ccbc9f;
+    color: black;
+    font-size: 120%;
+}
+
+.about-box h2 {
+    padding-top: 15px;
+    font-style: italic;
+}
+
+.about-box p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about-box ul {
+    list-style: none;
+}
+
+
+
+
+/* end about page */
+
+
+
+
+/* ---------- footer ------------*/
+
+.footer-background-color {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: #002253;
+}
+
+.footer-text {
+    font-size: 24px;
+}
+
+/*----------- end footer ----------------*/
+
+
+/*
+
+Primary scheme: navy blue and orange
+
+Second scheme: red blue yellow green
+
+3rd: soft green
+
+Navy Blue: #002253
+Orange: #ff8000
+Red: #ff0000
+Blue: #0000ff
+Yellow: #ffff00
+Green: #00802b
+LightGreen: #80ffaa
+
+
+
+*/

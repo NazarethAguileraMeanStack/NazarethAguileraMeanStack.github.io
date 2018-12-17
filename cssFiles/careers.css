@@ -1,0 +1,164 @@
+
+
+/* ---------------------- start - Cover Photo - start---------------------------*/
+
+
+.tinted-image {
+    background: url("../images/careersPageCover.jpg"); 
+    height: 50vh;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+.tinted-image div h2 {
+    color: white;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    font-size: 400%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);    
+}
+/* ----------------------end - Cover Photo - end---------------------------*/
+
+
+.section {
+    padding: 2%;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    font-size: 140%;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+
+#icons {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#icons div.col-sm-4 {
+    padding: 1% 10% 1% 10%;
+}
+
+#icons div.col-sm-4 i {
+    color: #ff8000;
+    font-size: 200%;
+}
+
+#mission {
+    text-align: center;
+}
+
+#mission .image-boxes {
+    width: 900px;
+    max-width: 80%;
+    height: auto;
+    margin: 2% auto 0px auto;
+    padding: 15px;
+}
+
+#mission .image-boxes img {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+#jobs {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #002253;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#jobs div.col-sm-6 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#jobs div.col-sm-6 hr {
+    border-color: #ff8000;
+    background-color: #ff8000;
+
+}
+
+#jobs div.col-sm-6 p {
+    font-weight: 600;
+    font-size: 90%;
+
+}
+
+#jobs ul {
+    margin-bottom: 10%;
+}
+
+#jobs ul li {
+    text-align: left;
+    font-size: 90%;
+    margin-bottom: 15px;
+    padding-left: 0px;
+}
+
+#banner div.center {
+    width: 100%;
+}
+
+#banner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#banner div img {
+    display: block;
+    width: 900px;
+    max-width: 98%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#benefits {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#benefits h3 {
+    text-align: center;
+}
+
+#benefits hr {
+    border-color: #ff8000;
+    background-color: #ff8000;
+    width: 50%;
+}
+
+#benefits div {
+    font-weight: 600;
+}
+
+#benefits ul {
+    list-style: none;
+    width: 400px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+
+#benefits ul li {
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+}
+
+#benefits ul li i {
+    color: #ff8000;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Future Transitions</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../cssFiles/main.css">
+        <link rel="stylesheet" href="../cssFiles/home.css">
+        <script type="text/javascript" src="../javascriptFiles/loadFrontPageInfo.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    </head>
+    <body>
+    
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./index.html">Future Transitions Inc.</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./about.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Who We Serve <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="./ourOffice.html">Our Office</a></li>
+                <li><a href="./regionalCenter.html">Regional Center</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./adaptiveSkillsTraining.html">Adaptive Skills Training</a></li>
+            <li><a href="./parentTrainingProgram.html">Parent Training Program</a></li>
+            <li><a href="./independentLivingSkills.html">Independent Living Skills</a></li>
+            <li><a href="./supportiveLivingServices.html">Supportive Living Services</a></li>
+            <li><a href="./serviceReferral.html">Service Referral</a></li>
+          </ul>
+        </li>
+        <li><a href="./careers.html">Careers</a></li>
+        <li><a href="./contactUs.html">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<!--------------------- body ------------------------------------------------- -->
+<div class="container-fluid landingPage" id="top">
+    <div class="jumbotron">
+        <div class="container">
+            <h1 id="title">Future Transitions, Inc.</h1>
+            <p class="jumbotron-paragraph">Enrichment. Training. Support. </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row video-section-color">
+        <div class="container">
+            <div class="col-sm-7 video-section-color-text">
+                <p><strong>Future Transitions, Inc.</strong> is a training program providing in-home training to 
+                children, adults, and parents with developmental disabilities and their families.</p>
+                <p>Our staff uses a variety of creative training methods. We Have successfully worked with 1000's
+                of clients in areas such as: toilet training, personal hygiene and grooming, independent living skills,
+                nutrition, shopping and parenting skills.</p>
+            </div>
+            <div class="col-sm-5">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/68073365"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+            <div class="col-sm-4">
+                <h5 class="facts" onclick="whatIsInfo()">What is Developmental Disability?</h5>
+                <hr>
+                <h5 class="facts" onclick="autisticInfo()">Austistic Disorder</h5>
+                <hr>
+                <h5 class="facts" onclick="cerebralInfo()">Cerebral Palsy</h5>
+                <hr>
+                <h5 class="facts" onclick="epilepsyInfo()">Epilepsy</h5>
+                <hr>
+                <h5 class="facts" onclick="retardationInfo()">Mental Retardation (Intellectual Disability)</h5>
+                <hr>
+            </div>
+            <div class="col-sm-6 frontPageInfo">
+                <h3 id="frontPageInfoTitle" onload="whatIsInfo()">What is a Developmental Disability?</h3>
+                <p id="frontPageInfo"></p>
+                <p><a target="_blank" id="frontPageInfoSource">Read More</a></p>
+            </div>
+            <div class="col-sm-2 helpfulLinks">
+                <h3>Helpful Links:</h3>
+                <a href="#"><p>Regional Center Consumer Service</p></a>
+                <a href="#"><p>Consumers/Families</p></a>
+                <a href="#"><p>Zero Tolerance Policy</p></a>
+            </div>
+    </div>
+
+
+
+
+</div>
+
+<!------------------------- end body ------------------------------------------------------------->
+
+
+<div class="container-fluid footer-background-color">
+    <div class="row footer-text">
+        <div class="col-sm-10">
+            <p style="padding-top: 15px;" class="text-center"><em>*Proudly serving developmentally disabled persons in CVRC, ELARC, KRC, LRC, NLACRC, SCLARC, and SG/PRC!</em></p>
+        </div>
+        <div class="col-sm-2">
+            <p>CALL TOLL FREE: (333) 333 - 3333</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="text-center">All Rights Reserved. Future Transitions, Inc. 2018</p>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

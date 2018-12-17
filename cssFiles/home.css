@@ -1,0 +1,81 @@
+/* Start Home page*/
+
+body {
+  background-color: black;
+}
+
+.landingPage {
+    /* The image used */
+  background-image: url("../images/homePageMainPic.jpg");
+
+  /* Full height */
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  background-color: black;
+  opacity: 1;
+  transition: opacity .8s ease-out;
+}
+
+.jumbotron {
+background-color: rgba(0,0,0,.0);
+color: white;
+height: 400px;
+position: relative;
+top: 200px;
+text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);
+}
+
+.video-section-color {
+  color: white;
+  font-size: 130%;
+  background-color: #002253;
+  text-shadow: 1px 1px 1px black;
+}
+
+.video-section-color-text {
+  padding: 3% 5% 3% 5%;
+  
+}
+
+
+.frontPageInfo {
+  background-color: #80ffaa;
+  color: #222;
+  border-right: 1px solid black;
+  padding: 0px 15px 15px 15px;
+}
+
+.helpfulLinks {
+  background-color: white;
+  text-align: center;
+}
+
+.facts {
+  padding: 1%;
+  cursor: pointer;
+}
+
+.facts:hover, .facts:active {
+  font-size: 100%;
+  font-weight: 600;
+  color: #AA9A7E;
+}
+
+
+
+
+.row{
+  overflow: hidden; 
+}
+
+[class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+/* end home page */
