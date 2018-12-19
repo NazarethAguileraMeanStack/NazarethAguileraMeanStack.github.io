@@ -165,5 +165,8 @@ h3 {
     .tinted-image div h2 {
         top: 60px;    
     }
+    #benefits hr {
+        width: 80%;
+    }
     
 }
