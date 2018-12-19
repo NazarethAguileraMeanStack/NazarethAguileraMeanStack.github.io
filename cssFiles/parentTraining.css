@@ -77,4 +77,7 @@ div.program-highlights i {
     .list {
         margin-top: 15px;
     }
+    .paddingUnderDivider {
+        padding-top: 10px;
+    }
 }

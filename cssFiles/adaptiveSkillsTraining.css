@@ -79,4 +79,7 @@ div.program-highlights i {
     .vendor {
         padding-top: 25px;
     }
+    .paddingUnderDivider {
+        padding-top: 10px;
+    }
 }
