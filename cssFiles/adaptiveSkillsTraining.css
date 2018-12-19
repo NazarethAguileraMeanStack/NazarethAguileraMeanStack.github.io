@@ -76,4 +76,7 @@ div.program-highlights i {
     .list {
         margin-top: 15px;
     }
+    .vendor {
+        padding-top: 25px;
+    }
 }
