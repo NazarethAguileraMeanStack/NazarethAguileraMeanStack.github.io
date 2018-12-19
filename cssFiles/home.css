@@ -30,6 +30,10 @@ top: 200px;
 text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);
 }
 
+#test {
+  width: 100%;
+}
+
 .video-section-color {
   color: white;
   font-size: 130%;

@@ -118,16 +118,48 @@ body {
 
 /* ---------- footer ------------*/
 
+#footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+}
+
 .footer-background-color {
     color: white;
     text-shadow: 1px 1px 1px black;
     background-color: #002253;
 }
 
-.footer-text {
-    font-size: 24px;
+#footer .footer-divider {
+    border-left: 1px solid #ff8000;
 }
 
+#footer .footer-text {
+    font-size: 16px;
+}
+
+#footer .footer-top-half {
+    padding: 2% 10% 1%;
+}
+
+#footer .footer-top-half ul {
+    list-style: none;
+}
+
+#footer .footer-top-half ul li a {
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#footer .footer-top-half p {
+    font-weight: 600;
+}
+
+#footer .footer-bottom-half {
+    background-color: #001253;
+    padding-top: 15px;
+}
 /*----------- end footer ----------------*/
 
 
