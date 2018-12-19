@@ -63,6 +63,13 @@ div.form-container {
     max-width: 480px;
 }
 
+button {
+    float: right;
+    margin-right: 8%;
+    background-color: #002253;
+    color: white;
+}
+
 
 
 
