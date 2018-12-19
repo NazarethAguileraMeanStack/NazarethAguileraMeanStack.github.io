@@ -63,6 +63,12 @@ div.program-highlights i {
 }
 
 @media only screen and (max-width: 768px) {
+    .tinted-image div h2 {
+        top: 60px;    
+    }
+    .vendor {
+        padding-top: 25px;
+    }
     .divider {
         border-right: none;
         border-bottom: 1px solid #ff8000;
