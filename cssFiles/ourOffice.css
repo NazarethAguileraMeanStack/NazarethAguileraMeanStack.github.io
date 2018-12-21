@@ -6,8 +6,7 @@ body {
 /* ---------------------- start - Cover Photo - start---------------------------*/
 
 .tinted-image {
-
-    background: url("../images/handsHoldingBanner.jpg"); 
+    background: url("../images/ourStaffCover.jpg"); 
     height: 50vh;
     background-position: center center;
     -webkit-background-size: cover;
@@ -15,10 +14,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-
-}
-
-
+  }
+  
 .tinted-image div h2 {
     color: white;
     height: 400px;
@@ -28,7 +25,19 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);    
 }
 /* ----------------------end - Cover Photo - end---------------------------*/
-    
+
+
+
+
+.staff-intro {
+    padding: 8% 15%;
+    text-align: center;
+    font-size: 160%;
+    background-color: white;
+    color: #002253;
+}
+
+
 p strong {
     color: #0f192b;
     font-size: 140%;
@@ -45,92 +54,68 @@ p strong {
 
 
 .staff-img {
-    width: 100%;
-    height: auto;
-    min-height: 300px;
-    max-height: 300px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: width .4s, height .4s, box-shadow .4s;
+}
+
+.staff-img:hover {
+    width: 320px;
+    height: 320px;
+    box-shadow: 0px 5px 5px black, 0px 8px 8px #555;
 }
 
 .staff-card {
-    width: 100%;
-    height: auto;
-    border: 2px solid black;
+    width: 96%;
+    height: 530px;
     border-radius: 5px;
-    margin: 5px -5%;
     padding: 10px;
+    margin-top: 5px;
 }
 
 .staff-text {
     display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    padding: 8px;
 }
 
-#director {
-    background: url('../images/staff/staffMemberDirector.jpg') no-repeat center center;
-    background-size: cover;
+.staff-text h4 {
+    color: #000;
+    font-style: normal;
+    text-decoration: underline;
 }
 
-#one {
-    background: url('../images/staff/staffMember1.JPG') no-repeat center center;
-    background-size: cover;
-    
+.staff-text p {
+    padding: 2%;
 }
 
-#two {
-    background: url('../images/staff/staffMember2.JPG') no-repeat center center;
-    background-size: cover;
+
+@media only screen and (max-width: 768px) {
+
+    .staff-card {
+        height: auto;
+    }
+
 }
 
-#three {
-    background: url('../images/staff/staffMember3.JPG') no-repeat center center;
-    background-size: cover;
-}
+@media only screen and (min-width: 768px) {
 
-#four {
-    background: url('../images/staff/staffMember4.jpg') no-repeat center center;
-    background-size: cover;
-}
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
 
-#five {
-    background: url('../images/staff/staffMember5.JPG') no-repeat center center;
-    background-size: cover;
-}
-
-#six {
-    background: url('../images/staff/staffMember6.JPG') no-repeat center center;
-    background-size: cover;
-}
-
-#seven {
-    background: url('../images/staff/staffMember7.JPG') no-repeat center center;
-    background-size: cover;
-    
-}
-
-#eight {
-    background: url('../images/staff/staffMember8.JPG') no-repeat center center;
-    background-size: cover;
-    
-}
-
-#nine {
-    background: url('../images/staff/staffMember9.JPG') no-repeat center center;
-    background-size: cover;
-    
-}
-
-#ten {
-    background: url('../images/staff/staffMember10.jpg') no-repeat center center;
-    background-size: cover;
-    
-}
-
-#eleven {
-    background: url('../images/staff/staffMember11.jpeg') no-repeat center center;
-    background-size: cover;
-    
 }
 
 
