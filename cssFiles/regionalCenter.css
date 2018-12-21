@@ -38,46 +38,35 @@ hr.orange {
     color: #ff8000;
 }
 
-
-span.text-highlight {
-    font-size: 140%;
-    color: #80ffaa;
+.divider {
+    border-right: 1px solid #ff8000;
 }
 
-p.program-highlights {
-    font-size: 80%;
-}
-
-div.program-highlights {
+.pad {
+    padding: 2%;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 
-div.program-highlights i {
-    font-size: 150%;
-    color: #ff8000;
+div.pad ul li {
+    font-size: 110%;
 }
 
-div.contentImage {
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-}
 
-div.contentImage img {
-    padding: 5px;
-    border: 1px solid white;
-    background-color: #002253;
-    border-radius: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 hr.orange {
     border-color: #ff8000;
     background-color: #ff8000;
     color: #ff8000;
-}
-
-@media only screen and (max-width: 768px) {
-    .list {
-        margin-top: 15px;
-    }
 }
