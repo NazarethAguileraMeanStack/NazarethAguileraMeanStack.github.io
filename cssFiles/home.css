@@ -30,6 +30,8 @@ top: 200px;
 text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 12px rgba(100,100,100,.2);
 }
 
+/*---------- intro ----------------------*/
+
 #test {
   width: 100%;
 }
@@ -70,16 +72,163 @@ text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 
   color: #AA9A7E;
 }
 
-
-
-
-.row{
-  overflow: hidden; 
+/* ---------------------Services ----------------------- */
+a {
+  text-decoration: none;
 }
 
-[class*="col-"]{
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
+.services-intro {
+  background-color: #efefef;
+  font-style: italic;
+  font-size: 36px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#adaptive-thumbnail {
+  padding-left: 2%;
+  padding-top: 2%;
+  height: 300px;
+  background: url('../images/adaptiveSkillsTraining.jpg');
+  background-size: cover;
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+#adaptive-thumbnail h3 {
+  color: white;
+  font-size: 250%;
+  text-shadow: 2px 2px 2px black;
+}
+
+#adaptive-thumbnail:hover {
+  opacity: 1;
+  background-color: white;
+}
+
+#parent-thumbnail {
+  padding-left: 2%;
+  padding-top: 2%;
+  height: 300px;
+  background: url('../images/parentTrainingPhoto.jpg');
+  background-size: cover;
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+#parent-thumbnail h3 {
+  color: white;
+  font-size: 250%;
+  text-shadow: 2px 2px 2px black;
+}
+
+#parent-thumbnail:hover {
+  opacity: 1;
+  background-color: white;
+}
+
+#independent-thumbnail {
+  padding-left: 2%;
+  padding-top: 2%;
+  height: 300px;
+  background: url('../images/independentLivingSkills.jpg');
+  background-size: cover;
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+#independent-thumbnail h3 {
+  color: white;
+  font-size: 250%;
+  text-shadow: 2px 2px 2px black;
+}
+
+#independent-thumbnail:hover {
+  opacity: 1;
+  background-color: white;
+}
+
+#supportive-thumbnail {
+  padding-left: 2%;
+  padding-top: 2%;
+  height: 300px;
+  background: url('../images/supportiveLiving.jpg');
+  background-size: cover;
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+#supportive-thumbnail h3 {
+  color: white;
+  font-size: 250%;
+  text-shadow: 2px 2px 2px black;
+}
+
+#supportive-thumbnail:hover {
+  opacity: 1;
+  background-color: white;
+}
+
+/*-----------------Services End -----------------------*/
+/*---------------- Career Start -----------------------*/
+
+#career-thumbnail {
+  height: 400px;
+  background-color: #efefef;
+}
+
+#career-thumbnail p.career-intro {
+  padding: 2% 8%;
+  font-size: 140%;
+}
+
+#career-thumbnail p {
+  text-align: center;
+  padding: 2%;
+}
+
+#career-thumbnail p i {
+  color: #ff8000;
+  font-size: 240%;
+  text-align: center;
+  box-shadow: 0px 1px 1px #002253;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+
+
+
+/*----------------- Career End -------------------------*/
+/*----------------- Contact Start ----------------------*/
+
+#contact-thumbnail {
+  background-color: #efefef;
+  text-align: center;
+  background: url('../images/contactUs.jpg');
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+#contact-thumbnail  button {
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  font-weight: 700;
+  margin-top: 5%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #002253;
+}
+
+
 
 /* end home page */
