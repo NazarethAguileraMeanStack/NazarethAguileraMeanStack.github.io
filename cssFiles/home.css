@@ -37,11 +37,22 @@ text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 
 }
 
 .video-section-color {
-  color: white;
-  font-size: 130%;
-  background-color: #002253;
-  text-shadow: 1px 1px 1px black;
+  background-color: #efefef;
+  font-size: 36px;
+  color: #002253;
+  padding: 5%;
+  text-align: center;
 }
+
+.opening-underline {
+  text-decoration: underline;
+  -webkit-text-decoration-color: red; /* safari still uses vendor prefix */
+  text-decoration-color: red;
+}
+
+
+
+
 
 .video-section-color-text {
   padding: 3% 5% 3% 5%;
@@ -50,7 +61,6 @@ text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 
 
 
 .frontPageInfo {
-  background-color: #80ffaa;
   color: #222;
   border-right: 1px solid black;
   padding: 0px 15px 15px 15px;
@@ -63,7 +73,10 @@ text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 
 
 .facts {
   padding: 1%;
+  border-bottom: 1px solid #777;
   cursor: pointer;
+  margin-right: 20px;
+  padding-bottom: 20px;
 }
 
 .facts:hover, .facts:active {
@@ -72,6 +85,21 @@ text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 
   color: #AA9A7E;
 }
 
+
+/* ------------------ info start -------------------------*/
+
+#info {
+  background-color: white;
+  min-height: 400px;
+  height: auto;
+  padding-top: 20px;
+}
+
+
+
+
+
+/* --------------------- info end ------------------------- */
 /* ---------------------Services ----------------------- */
 a {
   text-decoration: none;
@@ -173,6 +201,9 @@ a:hover, a:visited, a:link, a:active
   background-color: white;
 }
 
+#servicesIntro {
+  background-color: #efefef;
+}
 /*-----------------Services End -----------------------*/
 /*---------------- Career Start -----------------------*/
 
@@ -184,6 +215,7 @@ a:hover, a:visited, a:link, a:active
 #career-thumbnail p.career-intro {
   padding: 2% 8%;
   font-size: 140%;
+  background-color: #efefef;
 }
 
 #career-thumbnail p {
@@ -199,6 +231,7 @@ a:hover, a:visited, a:link, a:active
   border-radius: 50%;
   padding: 20px;
 }
+
 
 
 
@@ -232,3 +265,27 @@ a:hover, a:visited, a:link, a:active
 
 
 /* end home page */
+
+@media only screen and (max-width: 768px) {
+  
+  #info {
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  #career-thumbnail {
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  #contact-thumbnail {
+    margin-top: -5%;
+    padding-top: 20px;
+  }
+
+  #servicesIntro {
+    margin-top: -5%;
+  }
+}
