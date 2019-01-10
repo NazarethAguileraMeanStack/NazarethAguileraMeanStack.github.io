@@ -57,6 +57,12 @@ h3 {
     text-align: center;
 }
 
+#mission p {
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
 #mission .image-boxes {
     width: 900px;
     max-width: 80%;
@@ -69,6 +75,16 @@ h3 {
     width: 100%;
     height: auto;
     padding: 1%;
+}
+
+#mission div.why-work-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#mission div.why-work-text p {
+    text-align: center;
+    line-height: 2em;
 }
 
 #jobs {
@@ -107,6 +123,13 @@ h3 {
     font-size: 90%;
     margin-bottom: 15px;
     padding-left: 0px;
+}
+
+#jobs div img.hire-image {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 #banner div.center {
@@ -161,9 +184,6 @@ h3 {
     color: #ff8000;
 }
 
-#disclosure {
-    
-}
 
 #disclosure div.col-sm-12 div {
     width: 80%;
@@ -180,6 +200,10 @@ h3 {
     }
     #benefits hr {
         width: 80%;
+    }
+
+    #jobs div img.hire-image {
+        height: 200px;
     }
     
 }
