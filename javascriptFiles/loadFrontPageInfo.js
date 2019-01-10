@@ -5,8 +5,10 @@ let mainImage = document.getElementById('top');
 
 let slider = [
     '../images/homePageMainPic.jpg',
-    '../images/HomePageMainPic2.jpg',
     '../images/HomePageMainPic3.jpg',
+    '../images/HomePageMainPic6.jpg',
+    '../images/HomePageMainPic2.jpg',
+    '../images/HomePageMainPic5.jpg',
     '../images/HomePageMainPic4.jpg'
     ];
 
