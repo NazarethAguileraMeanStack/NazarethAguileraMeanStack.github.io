@@ -7,14 +7,15 @@ body {
 
 .tinted-image {
 
-    background: url("../images/handsHoldingBanner.jpg"); 
+    background: url("../images/aboutPageCover.PNG"); 
     height: 50vh;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-position: center bottom;
+    -webkit-background-size: 80% 80%;
+    -moz-background-size: 80% 80%;
+    -o-background-size: 80% 80%;
+    background-size: 80% 80%;
     background-repeat: no-repeat;
+    background-color: white;
 
 }
 
