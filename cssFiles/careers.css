@@ -161,6 +161,19 @@ h3 {
     color: #ff8000;
 }
 
+#disclosure {
+    
+}
+
+#disclosure div.col-sm-12 div {
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    color: #555;
+    font-size: 90%;
+}
+
 @media only screen and (max-width: 768px) {
     .tinted-image div h2 {
         top: 60px;    
