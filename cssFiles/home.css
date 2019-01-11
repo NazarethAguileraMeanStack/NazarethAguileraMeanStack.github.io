@@ -57,6 +57,7 @@ text-shadow: 2px 2px 4px rgba(0,0,0,.6), 4px 4px 8px rgba(50,50,50,.4), 8px 8px 
 
 #test div.tiny-logo {
   position: absolute;
+  transform: scale(1.5);
   right: -5px;
   bottom: -5px;
 }
