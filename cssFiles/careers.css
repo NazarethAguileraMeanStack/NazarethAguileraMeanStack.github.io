@@ -194,6 +194,10 @@ h3 {
     font-size: 90%;
 }
 
+p.downloadInfo a:hover {
+    color: #ff8000;
+}
+
 @media only screen and (max-width: 768px) {
     .tinted-image div h2 {
         top: 60px;    
